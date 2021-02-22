@@ -1,10 +1,13 @@
 # Sujet 11
 
 Ce sujet comporte deux exercices : voir le PDF ci-joint.  
-Pour voir les rectifications du sujet, cliquer sur le texte en jaune
 
-Pour le premier exercice, vous devez écrire une fonction `conv_bin` 
-
+Pour le premier exercice, vous devez écrire une fonction `conv_bin` .  
+Attention, erreur dans le PDF. Il faut lirre :  
+<p style="padding:0 0 0 0px;font: 18px Courier New, sans-serif;">
+>>> conv_bin(11)<br/>
+([1, 0, 1, 1], 4)<br/>
+</p>
 
 Pour le deuxième, il s'agit de compléter le code fourni.
 
