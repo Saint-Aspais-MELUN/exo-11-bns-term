@@ -3,7 +3,7 @@
 Ce sujet comporte deux exercices : voir le PDF ci-joint.  
 
 Pour le premier exercice, vous devez écrire une fonction `conv_bin` .  
-Attention, erreur dans le PDF. Il faut lirre :  
+Attention, erreur dans le PDF. Il faut lire :  
 <p style="padding:0 0 0 0px;font: 18px Courier New, sans-serif;">
 >>> conv_bin(11)<br/>
 ([1, 0, 1, 1], 4)<br/>
