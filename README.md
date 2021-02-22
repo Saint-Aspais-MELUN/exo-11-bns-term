@@ -1,59 +1,26 @@
-EXERCICE 1 (4 points) 
+# Sujet 11
 
- 
- 
-Écrire  une fonction  conv_bin  qui  prend  en paramètre  un entier  positif
-n  et  renvoie un couple (b,bit) où : 
+Ce sujet comporte deux exercices : voir le PDF ci-joint.  
+Pour voir les rectifications du sujet, cliquer sur le texte en jaune
 
-* b est une liste d'entiers correspondant  à la représentation binaire de n; 
-* bit correspond aux nombre de bits qui constituent b. 
+Pour le premier exercice, vous devez écrire une fonction `conv_bin` 
 
-Exemple : 
 
->>> conv_bin(9) 
-([1,0,1,1],4) 
- 
+Pour le deuxième, il s'agit de compléter le code fourni.
 
-Aide :  
-* l'opérateur // donne le quotient de la division euclidienne : 5//2 donne 2 ; 
-* l'opérateur % donne le reste de la division euclidienne : 5%2 donne 1 ; 
-* append est une méthode qui ajoute un élément à une liste existante : 
+- Les fichiers à compléter sont dans le dossier `exercices`.
 
-Soit T=[5,2,4], alors  T.append(10) ajoute 10 à la liste T.  Ainsi,  T devient 
-[5,2,4,10]. 
+- Le dossier `tests` correspond aux tests fournis par l'énoncé.
+Il ne faut surtout pas modifier ces fichiers sous peine d'annulation de l'épreuve.
 
-* reverse est une méthode qui renverse les éléments d'une liste. 
+- Si vous travaillez avec repl.it, modifier le fichier .replit :  
+<pre><code style="background-color:black;color:white;width:100%;font-size: large;">
+# Si vous voulez exécuter l'exercice 1 : Enlever le # de la ligne ci-dessous
+# run = "python3 exercices/exercice1.py"
 
-Soit T=[5,2,4,10]. Après T.reverse(), la liste devient [10,4,2,5]. 
+# Si vous voulez exécuter l'exercice 2 : Enlever le # de la ligne ci-dessous
+# run = "python3 exercices/exercice2.py"
 
-On  remarquera  qu’on  récupère  la  représentation  binaire  d’un  entier  n  en  partant  de  la 
-gauche en appliquant successivement les instructions : 
+language = "python3"
+</code></pre>
 
-b = n%2 
-n = n//2 
-
-répétées autant que nécessaire. 
-
- 
-EXERCICE 2 (4 points) 
-
-La fonction tri_bulles prend en paramètre une liste T d’entiers non triés et
-renvoie la liste triée par ordre croissant. 
-
-Compléter le code Python ci-dessous qui implémente la fonction tri_bulles. 
-
-def tri_bulles(T): 
-    n = len(T) 
-    for i in range(...,...,-1): 
-        for j in range(i): 
-            if T[j] > T[...]: 
-                ... = T[j] 
-                T[j] = T[...] 
-                T[j+1] = temp 
-    return T 
- 
-Écrire une autre version de l’algorithme avec  
- 
-    for i in range(n-1): 
- 
-en lieu et place de la troisième ligne du code précédent. 
